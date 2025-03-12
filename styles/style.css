@@ -1,0 +1,52 @@
+body {
+    margin: 25px 25px 25px 25px;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid lightgreen;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Elemento navi no usar para NADA excepto los 4 elementos de nav */
+.navi {
+    float: left;
+    width: 25%;
+}
+
+main {
+    border: 2px solid red;
+    float: left;
+    width: 75%;
+}
+
+section {
+    border: 2px solid orange;
+}
+
+article {
+    border: 2px solid purple;
+}
+
+aside {
+    border: 2px solid darkslateblue;
+    float: right;
+    width: 20%;
+
+}
+
+footer {
+    margin-top: 25px;
+    float: right;
+    width: 100%;
+    border: 2px solid gray;
+}
+
+h1 {
+    text-align: center;
+    border:2px solid lightblue;
+}
