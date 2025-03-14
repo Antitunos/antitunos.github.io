@@ -3,42 +3,132 @@
     <head>
         <meta charset="utf-8">
         <title>Mi preciosa página web (h1)</title>
-        <link rel="stylesheet" href="styles/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="node_modules/98.css/style.css">
+        <link rel="stylesheet" href="node_modules/98.css/docs/docs.css">
+        <link rel="stylesheet" href="node_modules/98.css/dist/vs.css">
     </head>
+    
     <body>
-
-        <header>
-            <h1>Mi página web</h1>
-        </header>
-
-
-
-        <nav>
-            <a href="TODO" class="navi">Página principal</a></li>
-            <a href="TODO" class="navi">Yo que sé</a>
-            <a href="TODO" class="navi">Contacto</a>
-            <a href="TODO" class="navi">Nada de esto funciona aún</a>
-            <!--TODO: Barra de navegación-->
-        </nav>
-
-        <main>
-            <section>
-                <article>
-                    <h2>titulo</h2>
-                    <p>Algún día trabajaré en esta página web</p>
-                </article>
-            </section>
-        </main>
-
-        <!--TODO: Hacer que main y aside respeten la sangría de 25px como el resto del documento-->
         <aside>
-            <p>no se que decir</p>
-            <p>barra lateralllllllll</p>
-            <p>wasdasdasdads</p>
+            <ul class="tree-view">
+                <li>
+                    <img src="images/icons_win2k_sp4_en/WINNT/regedit.exe_14_201.ico">
+                    <a href="index.html">&nbsp;Este equipo</a>
+                </li>
+                <ul>
+                    <li><a href="#intro">Sobre esta página web</a></li>
+                    <li><a href="WIP">Proyectos</a></li>
+                    <ul>
+                        <li>a</li>
+                        <li>b</li>
+                        <li>c</li>
+                    </ul>
+                    <li><a href="WIP">Hobbies</a></li>
+                    <li><a href="WIP">(Nada de esto funciona aún)</a></li>
+                </ul>
+            </ul>
         </aside>
 
-        <footer>
-            <p>&copy; Jaimito Pito 2025. Todos los derechos reservados.</p>
-        </footer>
+        <main>
+            <header>
+                <h1 id="title">Mi página web</h1>
+            </header>
+
+            <hr style="height: 3px;">
+
+            <br><br><br>
+
+            <div class="window" id="intro" style="width: 800px;">
+                <div class="title-bar">
+                  <div class="title-bar-text">Intro</div>
+                </div>
+                <div class="window-body">
+                    <h3>¿Por que decidí crear una página web?</h3>
+                    <p>Aparte de mi ya mencionado aburrimiento me gustaría explicar por que he creado una página web:</p>
+    
+                    <div class="example">
+                        <strong>Contar las cosas que me hago en mi tiempo libre y lo que pasa en mi vida</strong>
+                        <p>A mi tambien me gusta contar mi vida. Pero no me gustan las redes sociales. Personalmente me parece un poco agobiante estar pendiente de ir poniendo cosas en Instagram o quien está viendo (o puede ver)mis historias. Aun si nadie va a ver esta pagina prefiero subir cosas de esta manera.</p>
+                    </div>
+    
+                    <div class="example">
+                        <strong>Mostrar mi portfolio</strong>
+                        <p>Otro motivo por el que hago esto es para mostrar de una forma sencilla mis proyectos e hitos, y con suerte que alguien vea que soy muy guapo y listo e inteligente y servicial y apuesto y quieran darme trabajo 😉. Podríamos decir que esto es como una CL.</p>
+                        <p>Me ha tocado vivir en una época donde humanos revisan CVs cada vez menos y son algoritmos e inteligencias artificiales los que deciden los candidatos a un puesto. Cada día el mundo es un poco mas mierda pero bueno solo puedo adaptarme al mercado laboral e intentar destacar de alguna forma.</p>
+                    </div>
+    
+                    <div class="example">
+                        <strong>Divertirme</strong>
+                        <p>Mi principal objetivo es estudiar backend y quizás desarrollar software o dedicarme a la ciberseguridad. Pero me gusta tocar todas las esquinas de la informática y te diviertes bastante creando páginas web en frontend.</p>
+                    </div>
+                </div>
+                <div class="status-bar">
+                  <p class="status-bar-field">14 de Marzo de 2025</p>
+                </div>
+              </div>
+
+              <br><br><br>
+        
+
+              <h3>Planes para el futuro</h3>
+              <div class="" style="width: fit-content; margin: 0 auto;">
+                <table class="interactive">
+                  <thead>
+                    <tr>
+                      <th>Cosa</th>
+                      <th>Plazo</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                        <th>Terminar esta página web</th>
+                        <th>Final de este més</th>
+                    </tr>
+                    <tr>
+                        <th>Aprender a tocar el piano</th>
+                        <th>Muy largo plazo</th>
+                    </tr>
+                    <tr>
+                        <th>Fundamentos de dibujo</th>
+                        <th>No se quizas este verano</th>
+                    </tr>
+                    <tr>
+                        <th>Ser el mejor programador que haya nacido</th>
+                        <th>En progreso...</th>
+                    </tr>
+                    <tr>
+                        <th>Hacer BIEN la página web (páginas dinámicas, javascript, acceso a un servidor externo para recursos?) </th>
+                        <th>No me apetece bro</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <script>
+                document.querySelectorAll('table.interactive').forEach(element => {
+                  element.addEventListener('click', (event) => {
+                    const highlightedClass = 'highlighted';
+                    const isRow = element => element.tagName === 'TR' && element.parentElement.tagName === 'TBODY';
+                    const newlySelectedRow = event.composedPath().find(isRow);
+                    const previouslySelectedRow = Array.from(newlySelectedRow.parentElement.children).filter(isRow).find(element => element.classList.contains(highlightedClass));
+                    if(previouslySelectedRow){
+                      previouslySelectedRow.classList.toggle(highlightedClass);
+                    }
+              
+                    if (newlySelectedRow) {
+                      newlySelectedRow.classList.toggle(highlightedClass);
+                    }
+                  })
+                });
+            </script>
+
+            <br><br><br>
+
+            <div class="window" style="width: 800; margin: 0 auto;">
+                <div class="title-bar">
+                    <div class="title-bar-text">Antitunos &copy;. Ningún derecho reservado.</div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
