@@ -5,7 +5,6 @@ categories: []
 tags: []     # TAG names should always be lowercase
 ---
 
-# Introducción
 Hola! Soy Antitunos, un estudiante Español de IT. Creo esta página web para documentar todos los proyectos que vaya a hacer en el futuro.
 
 ## ¿Por qué crear un blog?
