@@ -20,14 +20,14 @@ Este "blog" lo usaré para:
 La idea de crear esta página web me vino a la cabeza cuando estaba aburrido en el trabajo, y pensé que sería buena idea crear la página por los motivos mencionados anteriormente. Sin embargo, a la hora de crear una página web completamente a mano surgen los siguientes problemas:
 
  - **Hostear la página y el dominio cuestan dinero.**
- - **Crear una página web es dificil.** Para que una página web sea bonita, esta debe incluir HTML y CSS, entre otros lenguajes de marcado/programación. Esto dificulta la forma en la que un usuario común (yo) pueda hacer su blog cutre.
+ - **Crear una página web es difícil.** Para que una página web sea bonita, esta debe incluir HTML y CSS, entre otros lenguajes de marcado/programación. Esto dificulta la forma en la que un usuario común (yo) pueda hacer su blog cutre.
  - **Escribir en HTML es lento.** Entremos en mi caso. Había conseguido hacer una página web decente en la cual yo quería escribir. Debido a que no tengo ni idea de como montar un sistema de posts eficiente, tendría que crear una página HTML cada vez que quiera hacer un post, lo cual genera otros problemas.
- - **Escalabilidad.** Si alguna vez se te ha presentado el problema de crear un sistema, sabrás que un factor a tomar en cuenta es la escalabilidad de este, o sea, la capacidad que tiene el sistema de crecer o disminuir sin suponer un gran coste añadido o su buen funcionamiento. En el caso de mi página, a la hora de incorporar un grán volumen de posts y querer cambiar un elemento de la página (digamos los elementos de la barra lateral de busqueda) tendría que cambiarlo para todas las páginas. Quizás es por que no tengo apenas idea de HTML, pero es que tampoco estoy interesado en aprender así que el marrón me como.
+ - **Escalabilidad.** Si alguna vez se te ha presentado el problema de crear un sistema, sabrás que un factor a tomar en cuenta es la escalabilidad de este, o sea, la capacidad que tiene el sistema de crecer o disminuir sin suponer un gran coste añadido o su buen funcionamiento. En el caso de mi página, a la hora de incorporar un gran volumen de posts y querer cambiar un elemento de la página (digamos los elementos de la barra lateral de búsqueda) tendría que cambiarlo para todas las páginas. Quizás es por que no tengo apenas idea de HTML, pero es que tampoco estoy interesado en aprender así que el marrón me como.
 
 ### Mi solución al problema
-Quizás la mejor solucion a todos los problemas sea usar [GitHub Pages](https://github.com/) para hostear tu página y [Jekyll](https://jekyllrb.com/) como generador de páginas estáticas.
+Quizás la mejor solución a todos los problemas sea usar [GitHub Pages](https://github.com/) para hostear tu página y [Jekyll](https://jekyllrb.com/) como generador de páginas estáticas.
 
-Github pages ofrece la oportunidad de hostear tu página web, y tener tu propio dominio, completamente gratis. No solo personas utilizan Github Webpages, sino tambien empresas como [Spotify](https://spotify.github.io/) para mostrar su código abierto.
+Github pages ofrece la oportunidad de hostear tu página web, y tener tu propio dominio, completamente gratis. No solo personas utilizan Github Webpages, sino también empresas como [Spotify](https://spotify.github.io/) para mostrar su código abierto.
 
 Jekyll genera páginas estáticas a partir de archivos markdown, que muestra como posts o subpáginas. Esto me ahorra el dolor de cabeza de escribir HTML, y markdown es un lenguaje mucho mas "orgánico", haciendo que se escriba con más naturalidad.
 
