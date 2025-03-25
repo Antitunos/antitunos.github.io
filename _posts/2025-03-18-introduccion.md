@@ -1,8 +1,10 @@
 ---
 title: Introducción
+description: Primer post de mi página web
 date: 2025-03-18 22:28:13 +010000
-categories: []
+categories: [Otro]
 tags: []     # TAG names should always be lowercase
+toc: false
 ---
 
 Hola! Soy Antitunos, un estudiante Español de IT. Creo esta página web para documentar todos los proyectos que vaya a hacer en el futuro.
@@ -34,7 +36,7 @@ Jekyll genera páginas estáticas a partir de archivos markdown, que muestra com
 Imagino que de este tema tiene que haber tutoriales en YouTube, pero si de verdad quieres aprender de informática (ahora o en el futuro) recomiendo intentar montarlo todo con la documentación que tanto Github como Jekyll presentan, ya que la mitad de tu vida como programador la vas a pasar leyendo documentación y código (o al menos así estoy yo lol).
 
 ## Mi objetivo para el futuro
-Espero que un día pueda mirar atrás y estar orgulloso de las acciones que haya tomado. Me gustaría vivir feliz haciendo lo que amo. Ese es mi sueño.
+Espero que un día pueda mirar atrás y estar orgulloso de lo que haya hecho. Me gustaría vivir feliz haciendo lo que amo. Ese es mi sueño.
 
-![Funny Cat](/assets/img/post/2025-03-18-introduccion/car.gif)
+![Car](/assets/img/post/introduccion/car.gif)
 
