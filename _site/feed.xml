@@ -1,0 +1,49 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Antitunos</title>
+  <subtitle>Donde escribo basura y opiniones de mierda.</subtitle>
+  <updated>2025-05-07T12:57:23+02:00</updated>
+  <author>
+    <name>Anti Tunos</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="es-ES"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Anti Tunos </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Primer post. Primer vomito de pensamiento</title>
+    <link href="http://localhost:4000/posts/intro/" rel="alternate" type="text/html" title="Primer post. Primer vomito de pensamiento" />
+    <published>2025-05-07T10:00:00+02:00</published>
+  
+    <updated>2025-05-07T10:00:00+02:00</updated>
+  
+    <id>http://localhost:4000/posts/intro/</id>
+    <content type="text/html" src="http://localhost:4000/posts/intro/" />
+    <author>
+      <name>Anti Tunos</name>
+    </author>
+
+  
+    
+    <category term="Otro" />
+    
+  
+
+  <summary>Que estoy haciendo con mi vida
+Hola, soy Antitunos, y con mi muy abundante tiempo libre creo este blog como forma de expresar mis pensamientos y opiniones de forma clara y ordenada (no sé escribir), además de hacer un portfolio de mis (seguro que increíbles y maravillosos) hitos y desafíos que me encuentre por la vida.
+Voy a poner aquí una imagen para asegurarme que he configurado bien la página.</summary>
+
+  </entry>
+
+</feed>
+
+
