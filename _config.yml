@@ -4,9 +4,8 @@ theme: just-the-docs
 
 url: https://antitunos.github.io
 
-# logo: "/assets/images/just-the-docs.png"
-
-# favicon_ico: "/assets/images/favicon/favicon.ico"
+logo: "/assets/images/common/logo.png"
+favicon_ico: "/assets/images/favicon/favicon.ico"
 
 search_enabled: true
 

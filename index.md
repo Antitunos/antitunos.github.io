@@ -1,6 +1,7 @@
 ---
-title: Buenos días
+title: Página Principal
 layout: home
+nav_order: 1
 ---
 
 Esta es mi página personal. Aquí documentaré y publicaré todas las cosas que vaya haciendo al internet.
